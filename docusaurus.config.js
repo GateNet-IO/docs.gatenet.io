@@ -59,7 +59,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
       },
       footer: {
         style: 'light',
-        copyright: `Copyright © ${new Date().getFullYear()} GATENET. All rights reserved.`,
+        copyright: `Copyright © ${new Date().getFullYear()} GATENet. All rights reserved.`,
       },
       prism: {
         theme: lightCodeTheme,
