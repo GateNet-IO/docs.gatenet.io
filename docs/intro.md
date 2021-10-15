@@ -2,34 +2,16 @@
 sidebar_position: 1
 ---
 
-# Tutorial Intro
+# Introduction
 
-Let's discover **Docusaurus in less than 5 minutes**.
+GATE Token Staking Platform - a non-custodial Staking Platform, built to operate on the Ethereum blockchain and provide Staking and Awards functionality to holders of GATENet’s ERC-20 GATE token. The Platform allows GATE token holders to participate in Staking and earn Awards on locked tokens, without the need for GATENet to hold a user's GATE tokens.
 
-## Getting Started
+The smart contract that is used for staking, by design, has a minimum lock-in period, whereby tokens that are staked can’t be withdrawn until that minimum period has expired. Additionally, when a user claims his or her tokens, there will be an unlock period before the tokens are released.  This is  a function of the smart contract which  cannot be bypassed.
 
-Get started by **creating a new site**.
+In order to use the Platform, the Gate token holder needs to connect a compatible ERC-20 wallet to the Platform. The available options are as follows:
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+* **Metamask Wallet**
+* **Coinbase Wallet**
+* **Wallet Connect compatible wallets**
 
-## Generate a new site
-
-Generate a new Docusaurus site using the **classic template**:
-
-```shell
-npx @docusaurus/init@latest init my-website classic
-```
-
-## Start your site
-
-Run the development server:
-
-```shell
-cd my-website
-
-npx docusaurus start
-```
-
-Your site starts at `http://localhost:3000`.
-
-Open `docs/intro.md` and edit some lines: the site **reloads automatically** and display your changes.
+For instructions on how to set up these wallets, further information can be found on the official websites of the appropriate wallet providers. GATENet will not be involved in providing these instructions:

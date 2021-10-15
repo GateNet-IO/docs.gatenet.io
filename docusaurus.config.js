@@ -12,7 +12,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
   organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  projectName: 'docs.gatenet.io', // Usually your repo name.
 
   presets: [
     [
@@ -53,17 +53,12 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
             position: 'left',
             label: 'Tutorial',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
-          {
-            href: 'https://github.com/facebook/docusaurus',
-            label: 'GitHub',
-            position: 'right',
-          },
+          /*{to: '/blog', label: 'Blog', position: 'left'},*/
         ],
       },
       footer: {
-        style: 'dark',
-        links: [
+        style: 'light',
+        /*links: [
           {
             title: 'Docs',
             items: [
@@ -103,8 +98,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
               },
             ],
           },
-        ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        ],*/
+        copyright: `Copyright © ${new Date().getFullYear()} GATENET. All rights reserved.`,
       },
       prism: {
         theme: lightCodeTheme,
