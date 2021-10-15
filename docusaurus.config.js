@@ -4,8 +4,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 // With JSDoc @type annotations, IDEs can provide config autocompletion
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 (module.exports = {
-  title: 'GATENet Staking User Instructions',
-  tagline: 'Documentation for gatenet.io',
+  title: 'GATENet Documentation',
+  tagline: 'Documentation for GATENet Public Projects',
   url: 'https://docs.gatenet.io',
   baseUrl: '/',
   onBrokenLinks: 'throw',
