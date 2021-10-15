@@ -27,8 +27,8 @@ function HomepageHeader() {
 export default function Home() {
     return (
     <Layout
-      title="GATENet Staking User Instructions - Document for understanding"
-      description="Documentation for gatenet.io">
+      title="GATENet Documentation"
+      description="Documentation GATENet Public Projects">
       <HomepageHeader />
       <main>
         <HomepageFeatures />
