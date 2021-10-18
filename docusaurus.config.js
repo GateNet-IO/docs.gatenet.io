@@ -36,6 +36,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           sidebarCollapsible: false,
+          routeBasePath: '/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -59,7 +60,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
           alt: 'GATENet',
           src: 'img/logo.svg',
         },
-        items: [
+        /*items: [
           {
             type: 'doc',
             docId: 'staking-user-guide/introduction',
@@ -67,7 +68,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
             label: 'Staking User Guide',
             to: 'staking-user-guide'
           },
-        ],
+        ],*/
       },
       footer: {
         style: 'light',
