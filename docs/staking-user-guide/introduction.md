@@ -15,3 +15,5 @@ In order to use the Platform, the Gate token holder needs to connect a compatibl
 * **Wallet Connect compatible wallets**
 
 For instructions on how to set up these wallets, further information can be found on the official websites of the appropriate wallet providers. GATENet will not be involved in providing these instructions:
+
+Hello Sagar
