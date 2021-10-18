@@ -22,9 +22,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
       ({
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
-        },
-        blog: {
-          showReadingTime: true,
+          sidebarCollapsible: false,
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -51,9 +49,10 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
         items: [
           {
             type: 'doc',
-            docId: 'intro',
+            docId: 'staking-user-guide/introduction',
             position: 'left',
-            label: 'Tutorial',
+            label: 'Staking User Guide',
+            to: 'staking-user-guide'
           },
         ],
       },
