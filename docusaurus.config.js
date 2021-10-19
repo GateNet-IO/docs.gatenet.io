@@ -13,7 +13,20 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
   favicon: 'img/favicon.ico',
   organizationName: 'GateNet-IO', // Usually your GitHub org/user name.
   projectName: 'docs.gatenet.io', // Usually your repo name.
-  noIndex: true,
+  noIndex: process.env.NO_INDEX,
+  plugins: [
+      [
+        'docusaurus2-dotenv',
+        {
+          path: "./.env", // The path to your environment variables.
+          safe: false, // If false ignore safe-mode, if true load './.env.example', if a string load that file as the sample
+          systemvars: false, // Set to true if you would rather load all system variables as well (useful for CI purposes)
+          silent: false, //  If true, all warnings will be suppressed
+          expand: false, // Allows your variables to be "expanded" for reusability within your .env file
+          defaults: false, //  Adds support for dotenv-defaults. If set to true, uses ./.env.defaults
+        },
+      ]
+  ],
 
   presets: [
     [
@@ -22,9 +35,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
       ({
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
-        },
-        blog: {
-          showReadingTime: true,
+          sidebarCollapsible: false,
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -51,9 +62,10 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
         items: [
           {
             type: 'doc',
-            docId: 'intro',
+            docId: 'staking-user-guide/introduction',
             position: 'left',
-            label: 'Tutorial',
+            label: 'Staking User Guide',
+            to: 'staking-user-guide'
           },
         ],
       },
