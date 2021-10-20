@@ -6,7 +6,7 @@ sidebar_position: 5
 <details>
   <summary>Who Are The Team Behind GATENet?</summary>
   <div>
-    <div>Insert team section from GSX Group page: <a href="https://www.gsxgroup.global/team/">https://www.gsxgroup.global/team/</a></div>
+    <div>Please visit the team at <a href="https://www.gsxgroup.global/team/">GSX Group page</a></div>
   </div>
 </details>
 
@@ -106,6 +106,6 @@ sidebar_position: 5
 <details>
   <summary>How Do I Get In Touch?</summary>
   <div>
-    <div>For all enquiries please visit: CONTACT PAGE</div>
+    <div>For all enquiries please email us at <a href="mailto:info@gatenet.io">info@gatenet.io</a></div>
   </div>
 </details>

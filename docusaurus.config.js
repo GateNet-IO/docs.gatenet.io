@@ -13,7 +13,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
   favicon: 'img/favicon.ico',
   organizationName: 'GateNet-IO', // Usually your GitHub org/user name.
   projectName: 'docs.gatenet.io', // Usually your repo name.
-  noIndex: process.env.NO_INDEX,
+  noIndex: process.env.NO_INDEX || false,
   plugins: [
       [
         'docusaurus2-dotenv',

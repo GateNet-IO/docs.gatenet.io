@@ -211,9 +211,25 @@ article .theme-doc-markdown.markdown img {
   display: inline-block;
 }
 .pagination-nav__label {
-  color: var(--bs-white);
+  color: var(--bs-primary);
 }
 
+/*faq section start*/
+.theme-doc-markdown.markdown .alert--info {
+  background-color: var(--bs-dark);
+  border-color: var(--bs-primary);
+  color: var(--bs-white);
+}
+.theme-doc-markdown.markdown .alert--info>summary:before {
+  border-left-color: var(--bs-primary);
+}
+.theme-doc-markdown.markdown .alert--info div[class^='collapsibleContent'] {
+  border-top-color: var(--bs-primary);
+}
+.theme-doc-markdown.markdown .alert--info>summary {
+  font-weight: 500;
+}
+/*faq section end*/
 
 
 
