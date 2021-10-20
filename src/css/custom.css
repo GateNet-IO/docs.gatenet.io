@@ -90,11 +90,11 @@ body {
 }
 
 a {
-  color: var(--bs-white);
+  color: var(--bs-primary);
 }
 
 a:hover {
-  color: var(--bs-white);
+  color: var(--bs-primary);
 }
 
 .footer {
@@ -209,6 +209,9 @@ article .theme-doc-markdown.markdown img {
 
 .table-of-contents__left-border .table-of-contents__link {
   display: inline-block;
+}
+.pagination-nav__label {
+  color: var(--bs-white);
 }
 
 
