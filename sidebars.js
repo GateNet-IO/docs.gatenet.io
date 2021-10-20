@@ -19,11 +19,11 @@ module.exports = {
         label: 'External resources',
         collapsible: false,
         items: [{
-            type: 'link', label: 'GateNet Site', href: 'https://www.gatenet.io'
+            type: 'link', label: 'GATE Token Website', href: 'https://www.gatetoken.io'
         },{
-            type: 'link', label: 'GateNet Stacking Platform', href: 'https://gate-staking.netlify.app/'
+            type: 'link', label: 'GATENet Staking Platform', href: 'https://gate-staking.netlify.app/'
         }, {
-            type: 'link', label: 'GateNet GitHub', href: 'https://github.com/gateNet-IO/'
+            type: 'link', label: 'GATENet GitHub', href: 'https://github.com/gateNet-IO/'
         }]
     }],
 };
