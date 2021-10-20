@@ -2,7 +2,7 @@
 sidebar_position: 3
 ---
 
-# Unlocking GATE Tokens
+# Authorising GATE Tokens
 In order to allow a wallet to interact with the smart contract, GATE tokens need to be authorised or &quot;unlocked&quot; in the connected wallet. To do so, click on the &quot;Manage Stake&quot; button:
 
 ![manage-stack-button](/img/staking-user-guide/manage-stack-button.png)
@@ -23,4 +23,4 @@ Once confirmed there will be a wait while the transaction completes on the block
 
 ![confirm-screen](/img/staking-user-guide/confirm-screen.png)
 
-At this point, the wallet has Unlocked GATE tokens for use with the smart contract. The popup windows can be closed.
+At this point, the wallet has authorised GATE tokens for use with the smart contract. The popup windows can be closed.
