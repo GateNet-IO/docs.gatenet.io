@@ -21,7 +21,7 @@ module.exports = {
         items: [{
             type: 'link', label: 'GATE Token Website', href: 'https://www.gatetoken.io'
         },{
-            type: 'link', label: 'GATENet Staking Platform', href: 'https://gate-staking.netlify.app/'
+            type: 'link', label: 'GATENet Staking Platform', href: 'https://staking.gatenet.io'
         }, {
             type: 'link', label: 'GATENet GitHub', href: 'https://github.com/gateNet-IO/'
         }]
