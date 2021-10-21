@@ -231,6 +231,14 @@ article .theme-doc-markdown.markdown img {
 }
 /*faq section end*/
 
+.theme-doc-markdown.markdown .admonition-note.alert {
+  background-color: var(--bs-dark);
+  border-color: var(--bs-primary);
+  color: var(--bs-white);
+}
+.theme-doc-markdown.markdown .alert--secondary svg {
+  fill: #fff;
+}
 
 
 /*responsive*/
