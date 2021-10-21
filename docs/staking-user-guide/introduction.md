@@ -29,4 +29,5 @@ For instructions on how to set up these wallets, further information can be foun
 GATE tokens held in a compatible wallet above are able to be staked with the contract. It is imperative that the wallet holding GATE tokens have some ETH to cover transaction charges (gas).
 
 The GATENet Staking platform runs on the Ethereum Mainnet network:
+
 ![etherium-maintain-network](/img/staking-user-guide/etherium-maintain-network.png)
