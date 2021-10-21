@@ -6,7 +6,7 @@ sidebar_position: 5
 <details>
   <summary>Who Are The Team Behind GATENet?</summary>
   <div>
-    <div>Please visit the team at <a href="https://www.gsxgroup.global/team/">GSX Group page</a></div>
+    <div>Please visit the team at <a href="https://www.gsxgroup.global/team/">GSX Group</a></div>
   </div>
 </details>
 
@@ -65,7 +65,7 @@ sidebar_position: 5
 <details>
   <summary>What Blockchains does GATENet use?</summary>
   <div>
-    <div>Alongside public blockchains, the GATENet Network has the in-house GSX STACS protocol and the Polymesh blockchain, created by Polymath, in which GATENet is a node operator. We are continually working toward adding more protocols to our network. If you’re interesting in collaborations, please contact: XXXXXXXX@gatenet.io</div>
+    <div>Alongside public blockchains, the GATENet Network has the in-house GSX STACS protocol and the Polymesh blockchain, created by Polymath, in which GATENet is a node operator. We are continually working toward adding more protocols to our network. If you’re interesting in collaborations, please contact: <a href="mailto:info@gatenet.io">info@gatenet.io</a></div>
   </div>
 </details>
 
@@ -85,7 +85,7 @@ sidebar_position: 5
 <details>
   <summary>What is GATENet Staking?</summary>
   <div>
-    <div>Staking is a utility for GATE token holders to earn awards, receive rewards, and participate in governance. You can stake your GATE tokens here: XXXXXX</div>
+    <div>Staking is a utility for GATE token holders to earn awards, receive rewards, and participate in governance. You can stake your GATE tokens here: <a href="https://staking.gatenet.io">https://staking.gatenet.io</a></div>
   </div>
 </details>
 

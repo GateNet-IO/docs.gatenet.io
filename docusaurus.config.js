@@ -60,7 +60,7 @@ module.exports = {
         respectPrefersColorScheme: true,
       },
       navbar: {
-        title: 'GATENet',
+        title: 'GATENet - Draft (subject to change)',
         logo: {
           alt: 'GATENet',
           src: 'img/logo.svg',

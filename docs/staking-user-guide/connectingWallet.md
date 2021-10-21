@@ -11,19 +11,31 @@ When the &quot;Connect to Wallet&quot; button is clicked, a popup window will ap
 
 ![connect-wallet-step2](/img/staking-user-guide/connect-wallet-step2.png)
 
-Once an option is selected follow the on-screen instructions requested by that wallet software. This generally involves authorising the wallet to be connected to the platform. Please note - connecting the wallet does not mean the tokens are staked yet.
+Once an option is selected follow the on-screen instructions requested by that wallet software. This generally involves authorising the wallet to be connected to the platform. 
+:::note
+
+Please note - connecting the wallet does not mean the tokens are staked yet.
+
+:::
 
 As an example, the Metamask browser extension has the following popups:
 
-## Unlock the wallet
+### Unlock the wallet
 ![unlock-the-wallet](/img/staking-user-guide/unlock-the-wallet.png)
 
-## Connect the wallet
+### Connect the wallet
 ![connecting-the-wallet](/img/staking-user-guide/connecting-the-wallet.png)
-Once the wallet connection is authorised and successful, an abbreviated wallet address (your wallet address), should display in the top right hand corner of the page:
+
+Once the wallet connection is authorised and successful, an abbreviated address of the connected wallet, should display in the top right hand corner of the page:
+
 ![wallete-connected-top-right](/img/staking-user-guide/wallete-connected-top-right.png)
+
 Next you can scroll down to the &quot;Portfolio&quot; section of the page, and see information related to the wallet address that has been linked to the platform:
+
 ![portfolio-section](/img/staking-user-guide/portfolio-section.png)
+
 Before a wallet is connected, the &quot;Portfolio&quot; section does not display any information:
+
 ![portfolio-before-wallete-connection](/img/staking-user-guide/portfolio-before-wallete-connection.png)
+
 There are no gas fees required to connect your wallet to the platform.
