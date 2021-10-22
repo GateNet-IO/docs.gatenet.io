@@ -99,7 +99,7 @@ sidebar_position: 5
 <details>
   <summary>Where is GATE Token listed?</summary>
   <div>
-    <div>The GATE token is currently listed on Uniswap and Liquid with more exchanges being added in the future.</div>
+    <div>The GATE token is currently listed on <a href="https://v2.info.uniswap.org/pair/0x57e8b595a4f6a61f21851c17f7f28b80ecebf074">Uniswap V2</a> and Liquid Exchange in <a href="https://app.liquid.com/exchange/GATEUSDT">USDT</a> and <a href="https://app.liquid.com/exchange/GATEETH">ETH</a> pairs, with more exchanges being added in the future.</div>
   </div>
 </details>
 
