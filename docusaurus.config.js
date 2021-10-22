@@ -65,15 +65,6 @@ module.exports = {
           alt: 'GATENet',
           src: 'img/logo.svg',
         },
-        /*items: [
-          {
-            type: 'doc',
-            docId: 'staking-user-guide/introduction',
-            position: 'left',
-            label: 'Staking User Guide',
-            to: 'staking-user-guide'
-          },
-        ],*/
       },
       footer: {
         style: 'light',

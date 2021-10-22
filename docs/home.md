@@ -1,6 +1,7 @@
 ---
 sidebar_position: 1
 slug: /
+image: https://docs.gatenet.io/img/gatenet-banner.png
 ---
 
 # Home
