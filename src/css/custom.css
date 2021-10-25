@@ -240,6 +240,10 @@ article .theme-doc-markdown.markdown img {
   fill: #fff;
 }
 
+.main-wrapper {
+  background-color: var(--bs-body-bg);
+}
+
 
 /*responsive*/
 @media (max-width:500px) {
