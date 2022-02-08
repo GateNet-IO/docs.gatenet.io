@@ -19,6 +19,8 @@ module.exports = {
         label: 'External resources',
         collapsible: false,
         items: [{
+            type: 'link', label: 'GATENet Website', href: 'https://gatenet.io'
+        },{
             type: 'link', label: 'GATENet Staking Platform', href: 'https://staking.gatenet.io'
         }, {
             type: 'link', label: 'GATENet GitHub', href: 'https://github.com/gateNet-IO/'
