@@ -4,9 +4,9 @@ sidebar_position: 1
 
 # Introduction
 
-The GATE Token Staking Platform is a non-custodial Staking Platform, built to operate on the Ethereum blockchain and provide Staking and Awards functionality to holders of GATENet&#39;s ERC-20 GATE token. The Platform allows GATE token holders to participate in Staking and earn Awards on locked tokens, without the need for GATENet to hold a user&#39;s GATE tokens.
+The GATE Token Staking Platform is a non-custodial Staking Platform, built by GATENet to operate on the Ethereum blockchain and provide Staking and Awards functionality to holders of GATENet&#39;s ERC-20 GATE token. The Staking Platform allows GATE token holders to participate in Staking and earn Awards on staked tokens, without the need for GATENet to hold a user&#39;s GATE tokens.
 
-The smart contract that is used for staking, by design, has a minimum lock-in period, whereby tokens that are staked can&#39;t be withdrawn until that minimum period has expired. This is a function of the smart contract which cannot be bypassed.
+The smart contract that is used for staking, by design, has a minimum lock-in period (30 days), whereby tokens that are staked can&#39;t be withdrawn until that minimum period has expired. This is a function of the smart contract which cannot be bypassed.
 
 The source code used for the Staking Platform and smart contracts is publicly available on GATENet&#39;s GitHub account:
 
@@ -14,7 +14,7 @@ The source code used for the Staking Platform and smart contracts is publicly av
 
 The GATE Token Staking Platform URL: [https://staking.gatenet.io](https://staking.gatenet.io)
 
-In order to use the Platform, the GATE token holder needs to connect a compatible ERC-20 wallet to the Platform. The available options are as follows:
+In order to use the Staking Platform, the GATE token holder needs to connect a compatible ERC-20 wallet to the Staking Platform. The available options are as follows:
 
 - **Metamask Wallet**
 - **Coinbase Wallet**
