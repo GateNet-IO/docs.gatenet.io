@@ -104,6 +104,13 @@ sidebar_position: 5
 </details>
 
 <details>
+  <summary>How is Circulating Supply Calculated?</summary>
+  <div>
+    <div>The amount of GATE Tokens that are circulating in the market and are in public hands, meaning it excludes GATE Tokens within the Staking Platform and other non-circulating wallets including the reserve. See CoinMarketCap’s article for more information: <a href="https://support.coinmarketcap.com/hc/en-us/articles/360043396252-Supply-Circulating-Total-Max-">https://support.coinmarketcap.com/hc/en-us/articles/360043396252-Supply-Circulating-Total-Max-</a>.</div>
+  </div>
+</details>
+
+<details>
   <summary>How Do I Get In Touch?</summary>
   <div>
     <div>For all enquiries please email us at <a href="mailto:info@gatenet.io">info@gatenet.io</a></div>
