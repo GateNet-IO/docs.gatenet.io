@@ -216,6 +216,12 @@ article .theme-doc-markdown.markdown img {
   color: var(--bs-primary);
 }
 
+/*
+* Breadcrumbs link
+*/
+.breadcrumbs__link {
+  font-weight: 700;
+}
 /*faq section start*/
 .theme-doc-markdown.markdown .alert--info {
   background-color: var(--bs-dark);
