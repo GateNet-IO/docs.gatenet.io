@@ -32,8 +32,14 @@ const config = {
         silent: false, //  If true, all warnings will be suppressed
         expand: false, // Allows your variables to be "expanded" for reusability within your .env file
         defaults: false, //  Adds support for dotenv-defaults. If set to true, uses ./.env.defaults
+      }
+    ],
+    [
+      require.resolve('docusaurus-lunr-search'),
+      {
+        indexBaseUrl: true,
       },
-    ]
+    ],
   ],
 
   presets: [
@@ -49,6 +55,12 @@ const config = {
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
+        sitemap:{
+          changefreq: 'monthly',
+          priority: 0.5,
+          ignorePatterns: ['/tags/**'],
+          filename: 'sitemap.xml'
+        }
       }),
     ],
   ],
