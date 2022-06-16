@@ -44,6 +44,7 @@ const config = {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           routeBasePath: '/',
+          breadcrumbs: true
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -70,6 +71,11 @@ const config = {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
       },
+      colorMode: {
+        defaultMode: 'light',
+        disableSwitch: true,
+        respectPrefersColorScheme: false
+      }
     }),
 };
 
