@@ -3,7 +3,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula')
 
 // With JSDoc @type annotations, IDEs can provide config autocompletion
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
-module.exports = {
+const config = {
   title: 'GATENet Documentation',
   tagline: 'Documentation for GATENet Public Projects',
   url: 'https://docs.gatenet.io',
@@ -14,6 +14,14 @@ module.exports = {
   organizationName: 'GateNet-IO', // Usually your GitHub org/user name.
   projectName: 'docs.gatenet.io', // Usually your repo name.
   noIndex: process.env.NO_INDEX || false,
+  // Even if you don't use internalization, you can use this field to set useful
+  // metadata like html lang. For example, if your site is Chinese, you may want
+  // to replace "en" with "zh-Hans".
+  i18n: {
+    defaultLocale: 'en',
+    locales: ['en'],
+  },
+
   plugins: [
     [
       'docusaurus2-dotenv',
@@ -24,7 +32,7 @@ module.exports = {
         silent: false, //  If true, all warnings will be suppressed
         expand: false, // Allows your variables to be "expanded" for reusability within your .env file
         defaults: false, //  Adds support for dotenv-defaults. If set to true, uses ./.env.defaults
-      },
+      }
     ],
     [
       require.resolve('docusaurus-lunr-search'),
@@ -36,16 +44,23 @@ module.exports = {
 
   presets: [
     [
-      '@docusaurus/preset-classic',
+      'classic',
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           routeBasePath: '/',
+          breadcrumbs: true
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
+        sitemap:{
+          changefreq: 'monthly',
+          priority: 0.5,
+          ignorePatterns: ['/tags/**'],
+          filename: 'sitemap.xml'
+        }
       }),
     ],
   ],
@@ -53,12 +68,6 @@ module.exports = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
-      hideableSidebar: false,
-      colorMode: {
-        defaultMode: 'light',
-        disableSwitch: true,
-        respectPrefersColorScheme: true,
-      },
       navbar: {
         title: 'GATENet',
         logo: {
@@ -74,5 +83,12 @@ module.exports = {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
       },
+      colorMode: {
+        defaultMode: 'light',
+        disableSwitch: true,
+        respectPrefersColorScheme: false
+      }
     }),
-}
+};
+
+module.exports = config;

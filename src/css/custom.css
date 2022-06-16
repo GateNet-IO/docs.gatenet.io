@@ -5,7 +5,6 @@
  */
 
 /* You can override the default Infima variables here. */
-
 :root {
   --ifm-color-primary: #0e1757;
   --ifm-color-primary-dark: #0d154e;
@@ -16,6 +15,9 @@
   --ifm-color-primary-lightest: #121e71;
   --ifm-code-font-size: 95%;
   --ifm-menu-link-sublist-icon: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="16px" height="16px" viewBox="0 0 24 24"><path fill="rgba(255,255,255,0.3)" d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z"></path></svg>');
+  --ifm-breadcrumb-color-active: #c550e4;
+  --ifm-breadcrumb-color: #7179A8;
+  --ifm-font-color-base: #7179A8;
 
   /* Extending Existing Theme */
   --bs-blue: #0d6efd;
@@ -214,6 +216,12 @@ article .theme-doc-markdown.markdown img {
   color: var(--bs-primary);
 }
 
+/*
+* Breadcrumbs link
+*/
+.breadcrumbs__link {
+  font-weight: 700;
+}
 /*faq section start*/
 .theme-doc-markdown.markdown .alert--info {
   background-color: var(--bs-dark);
