@@ -5,7 +5,7 @@ sidebar_position: 5
 # Unstaking GATE Tokens
 In order to unstake GATE tokens and claim any rewards earned, click on the &quot;Manage Stake&quot; button in the Portfolio section.
 
-![manage-stack-button-2](/img/staking-user-guide/manage-stack-button-2.png)
+![manage-stack-button-2](/img/staking-user-guide/manage-stack-button.png)
 
 In the popup window that opens, click on the &quot;Unstake&quot; button at the top. Information will be presented showing the status of locked and unlocked tokens. Where there are tokens that are unlocked and available to withdraw, there will be an option to &quot;Unstake&quot; or withdraw those tokens.
 :::note
