@@ -10,7 +10,7 @@ In order to claim all GATE token rewards earned, click on the "Claim All Rewards
 
 ![claim-only-reward-button](/img/staking-user-guide/claim-onlu-reward-button.png)
 
-When the ‘Claim All Rewards’ button is clicked, the connected wallet will open a popup window where the transaction can be reviewed and confirmed:
+When the ‘Claim Only Rewards’ button is clicked, the connected wallet will open a popup window where the transaction can be reviewed and confirmed:
 
 ![confirm-claim](/img/staking-user-guide/confirm-claim.png)
 
@@ -31,3 +31,13 @@ You are able to claim your GATE token rewards via the ‘Manage Stake’ button,
 The **‘Claim Only Rewards’** button will retrieve **ONLY** your current GATE rewards, and will **NOT** unstake your current eligible (non-locked) staked balance. A popup window will open where the transaction can be reviewed and confirmed. 
 
 ![claim-only-reward-button-popup](/img/staking-user-guide/claim-only-reward-button-popup.png)
+
+When the ‘Claim Only Rewards’ button is clicked, the connected wallet will open a popup window where the transaction can be reviewed and confirmed:
+
+![confirm-claim](/img/staking-user-guide/confirm-claim.png)
+
+After confirming the transaction in the connected wallet, there will be a wait while the transaction is completed on the blockchain. When the transaction is successful there will be a confirmation screen displayed.
+
+![confirm-screen](/img/staking-user-guide/confirm-screen.png)
+
+At this point the claimed GATE tokens will have been deposited to the connected wallet from the smart contract and the popup window can be closed.
