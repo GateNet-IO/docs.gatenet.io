@@ -12,7 +12,7 @@ In order to claim all GATE token rewards earned, click on the "Claim All Rewards
 
 When the ‘Claim All Rewards’ button is clicked, the connected wallet will open a popup window where the transaction can be reviewed and confirmed:
 
-{Image}
+![confirm-claim](/img/staking-user-guide/confirm-claim.png)
 
 After confirming the transaction in the connected wallet, there will be a wait while the transaction is completed on the blockchain. When the transaction is successful there will be a confirmation screen displayed.
 
