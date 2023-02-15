@@ -5,7 +5,7 @@ sidebar_position: 4
 # Staking GATE Tokens
 In order to stake GATE tokens once the wallet has been connected and GATE tokens have been authorised or "unlocked", click the &quot;Manage Stake&quot; button in the Portfolio section:
 
-![manage-stack-button-2](/img/staking-user-guide/manage-stack-button-2.png)
+![manage-stack-button-2](/img/staking-user-guide/manage-stack-button.png)
 
 A popup window will appear where the amount of GATE tokens to be staked can be entered. The checkbox needs to be checked before the &quot;Stake&quot; button becomes available to be clicked.
 
