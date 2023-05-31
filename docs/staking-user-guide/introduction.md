@@ -8,9 +8,9 @@ The GATE Token Staking Platform is a non-custodial Staking Platform, built by GA
 
 The smart contract that is used for staking, by design, has a minimum lock-in period (30 days), whereby tokens that are staked can&#39;t be withdrawn until that minimum period has expired. This is a function of the smart contract which cannot be bypassed.
 
-The source code used for the Staking Platform and smart contracts is publicly available on GATENet&#39;s GitHub account:
+The source code used for the Staking Platform Smart Contracts is publicly available on GATENet&#39;s GitHub account:
 
-[https://github.com/GateNet-IO/GATE-token-staking-platform](https://github.com/GateNet-IO/GATE-token-staking-platform)
+[https://github.com/GateNet-IO/GATE-token-staking-platform-smart-contracts](https://github.com/GateNet-IO/GATE-token-staking-platform-smart-contracts)
 
 The GATE Token Staking Platform URL: [https://staking.gatenet.io](https://staking.gatenet.io)
 
